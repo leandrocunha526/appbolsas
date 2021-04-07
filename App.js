@@ -209,7 +209,7 @@ class App extends Component {
                       this.state.infoStatus ? "" : this.state.periodo
                     }
                   >
-                    <Picker.Item value={""} label={"Período"} />
+                    <Picker.Item value={""} label={"Selecione o período"} />
                     {periodo}
                   </Picker>
                 </View>
@@ -221,7 +221,7 @@ class App extends Component {
                       this.state.infoStatus ? "" : this.state.turno
                     }
                   >
-                    <Picker.Item value={""} label={"Turno"} />
+                    <Picker.Item value={""} label={"Selecione o turno"} />
                     {turno}
                   </Picker>
                 </View>
