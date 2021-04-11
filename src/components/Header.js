@@ -1,11 +1,14 @@
 import React, { Component } from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View, Image } from "react-native";
 
 class Header extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.textHeader}>Logo</Text>
+        <Image 
+         style={styles.image}
+         source={require('../../assets/unipam.webp')}
+        />
       </View>
     );
   }
@@ -16,12 +19,13 @@ const styles = StyleSheet.create({
     backgroundColor: "blue",
     height: 65,
     justifyContent: "center",
+    paddingTop: 18,
   },
-  textHeader: {
+  image: {
+    width: 30,
+    height: 28,
     marginLeft: "5%",
-    color: "white",
-    fontSize: 24,
-  },
+  }
 });
 
 export default Header;
