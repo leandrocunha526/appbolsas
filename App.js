@@ -279,6 +279,7 @@ const style = StyleSheet.create({
     borderColor: "black",
     borderWidth: 1,
     marginTop: "3%",
+    borderRadius: 6,
   },
   buttonSalvar: {
     backgroundColor: "blue",
@@ -297,6 +298,7 @@ const style = StyleSheet.create({
     borderColor: "black",
     borderWidth: 1,
     marginTop: "3%",
+    borderRadius: 6,
   },
   titulo: {
     fontSize: 20,
